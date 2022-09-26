@@ -12,14 +12,14 @@ public class P5P2 {
         while(InGame()){
             Scanner in = new Scanner(System.in);
             System.out.println("Hi, user, I am book recommendor, tell me your name:");
-            recomendor();
+            recomendor(); //run recomendor block
             }
         }
     public static String GetUserString () {
         Scanner in = new Scanner(System.in);
         String x = in.nextLine();
         return x;}
-
+    //ask user if he wants to play agai (if yes - return to 1.)
     public static boolean InGame () {
         System.out.println("Do you want to start again? Type Y/N :");
         String wannaplay = GetUserString();
